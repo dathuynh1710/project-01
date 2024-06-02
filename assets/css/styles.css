@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #2ac9bf;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.btn {
+    --height: 68px;
+
+    display: inline-block;
+    min-width: 186px;
+    border-radius: 14px;
+    height: var(--height);
+    line-height: var(--height);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    background: var(--primary-color);
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/*=============== Header ===============*/
+.header {
+    padding: 52px 0 79px;
+    min-height: 100vh;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__link {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    padding: 4px 20px;
+    transition: 0.5s;
+}
+
+.nav__link--active,
+.nav__link:hover {
+    color: #2f3a3b;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header-action {
+    display: flex;
+    align-items: center;
+}
+
+.header-action__signin {
+    color: #494949;
+    font-size: 1.6rem;
+}
+
+.header-action__signup {
+    --height: 48px;
+    min-width: 108px;
+    background: transparent;
+    border: 1px solid #1ebfc1;
+    color: #1ebfc1;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-left: 24px;
+    transition: 0.5s;
+}
+
+.header-action__signup:hover {
+    color: #fff;
+    background: var(--primary-color);
+}
