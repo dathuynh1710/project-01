@@ -293,3 +293,66 @@ a {
 .hero-groups__img + .hero-groups__img {
     margin-left: -7px;
 }
+
+/*=============== features ===============*/
+.features {
+    margin: 65px 0;
+    padding: 65px 0;
+}
+
+.features__sub {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.features__heading,
+.features__desc {
+    max-width: 580px;
+    margin-top: 18px;
+}
+
+.features__heading {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
+.features__desc {
+    line-height: normal;
+}
+
+.features__row {
+    margin-top: 80px;
+}
+
+.features__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-item__img {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.features-item__img:hover {
+    scale: 1.1;
+}
+
+.features-item__heading {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.features-item__desc {
+    max-width: 228px;
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.68;
+}
