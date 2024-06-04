@@ -470,3 +470,18 @@ a {
     border-radius: 50%;
     background: #1ebfc1;
 }
+
+/*=============== number ===============*/
+.number {
+    margin-top: 389px;
+}
+
+.number__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 156px;
+}
+
+.number__desc {
+    margin-top: 11px;
+}
