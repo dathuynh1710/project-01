@@ -485,3 +485,136 @@ a {
 .number__desc {
     margin-top: 11px;
 }
+
+/*=============== feedback ===============*/
+.feedback {
+    margin-top: 264px;
+}
+.feedback-inner {
+    display: flex;
+}
+
+.feedback__icon {
+    margin-top: 20px;
+}
+
+.feedback__quote {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 419px;
+}
+
+.feedback__author {
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.feedback__author::before {
+    position: relative;
+    top: -5px;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.feedback span {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.feedback__control {
+    display: flex;
+    margin-top: 52px;
+    gap: 30px;
+}
+
+.control__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    outline: none;
+    color: #575f66;
+    background: #fff;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.control__btn:hover {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #fff;
+}
+
+.control-next-icon {
+    rotate: 180deg;
+}
+
+.feedback-media {
+    position: relative;
+    width: 58%;
+    margin-left: 50px;
+}
+
+.feedback-media__img {
+    position: absolute;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.feedback-media__img:hover {
+    scale: 1.1;
+}
+
+.img-bigger {
+    width: 235px;
+    height: 235px;
+    top: 107px;
+    right: 171px;
+}
+
+.img-small {
+    width: 78px;
+    height: 78px;
+}
+
+.img-medium {
+    top: 0;
+    left: 144px;
+    width: 92px;
+    height: 92px;
+}
+
+.img-large {
+    right: 0;
+    top: 19px;
+    width: 110px;
+    height: 110px;
+}
+
+.feedback-media__img:nth-child(6) {
+    right: 32px;
+    bottom: -20px;
+}
+
+.feedback-media__img:nth-child(3) {
+    bottom: -60px;
+    right: 389px;
+}
+
+.feedback-media__img:nth-child(1) {
+    left: 0;
+    bottom: 145px;
+}
