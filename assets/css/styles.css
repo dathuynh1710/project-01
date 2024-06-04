@@ -618,3 +618,35 @@ a {
     left: 0;
     bottom: 145px;
 }
+
+/*=============== Ready ===============*/
+.ready {
+    margin-top: 167px;
+    height: 272px;
+    background: #def6f5;
+}
+
+.ready__heading {
+    margin-top: 76px;
+    display: inline-block;
+    font-size: 4.2rem;
+    color: #070707;
+}
+
+.ready__desc {
+    margin-top: 24px;
+}
+
+.ready__row {
+    display: flex;
+    align-items: center;
+}
+
+.ready__content {
+    width: 35.9%;
+    margin-right: 410px;
+}
+
+.cta-ready {
+    margin-top: 96px;
+}
