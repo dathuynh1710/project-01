@@ -1,12 +1,20 @@
 * {
     box-sizing: border-box;
 }
+
 :root {
     --primary-color: #2ac9bf;
 }
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -57,11 +65,15 @@ a {
 
 /*=============== Header ===============*/
 .header {
-    padding: 52px 0 79px;
-    min-height: 100vh;
+    position: sticky;
+    z-index: 1;
+    top: -26px;
+    background: #fff;
+    padding-top: 40px;
 }
 
 .header-top {
+    padding: 12px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,10 +126,13 @@ a {
 
 /*=============== Hero ===============*/
 .hero {
+    padding: 38px 0 79px;
+}
+
+.hero__body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
 }
 
 .hero__content {
@@ -327,6 +342,7 @@ a {
 }
 
 .features__list {
+    max-width: 1024px;
     display: flex;
     justify-content: space-between;
 }
